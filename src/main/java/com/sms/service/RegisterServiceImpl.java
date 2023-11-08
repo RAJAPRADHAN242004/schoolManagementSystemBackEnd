@@ -1,5 +1,7 @@
-package com.sms.smsartifact;
+package com.sms.service;
 
+import com.sms.repository.RegisterDao;
+import com.sms.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

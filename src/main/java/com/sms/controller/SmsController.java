@@ -1,6 +1,8 @@
-package com.sms.smsartifact;
+package com.sms.controller;
 
 
+import com.sms.model.User;
+import com.sms.service.RegisterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

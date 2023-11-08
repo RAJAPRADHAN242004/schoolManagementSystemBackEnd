@@ -1,5 +1,6 @@
-package com.sms.smsartifact;
+package com.sms.repository;
 
+import com.sms.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
