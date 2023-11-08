@@ -1,4 +1,4 @@
-package com.sms.smsartifact;
+package com.sms.model;
 
 import jakarta.persistence.Column;
 
