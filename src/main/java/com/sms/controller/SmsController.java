@@ -19,8 +19,11 @@ public class SmsController {
     public List<User> getAllUser() {
         System.out.println("inside controller");
        return registerService.getUsers();
-
-
     }
 
+    @PostMapping("/user")
+    public User createUser(@RequestBody User user) {
+        return (User) registerService.saveUser();
+    }
 }
+
