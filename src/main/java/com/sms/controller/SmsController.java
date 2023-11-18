@@ -18,7 +18,7 @@ public class SmsController {
     @GetMapping(value = "/allUsers")
     public List<User> getAllUser() {
         System.out.println("inside controller");
-       return registerService.getUsers();
+        return registerService.getUsers();
     }
 
     @PostMapping("/user")

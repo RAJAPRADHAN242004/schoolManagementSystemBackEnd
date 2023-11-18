@@ -9,4 +9,5 @@ import java.util.List;
 @Repository
 public interface RegisterDao extends JpaRepository<User,String> {
     List<User> saveAll();
+
 }
