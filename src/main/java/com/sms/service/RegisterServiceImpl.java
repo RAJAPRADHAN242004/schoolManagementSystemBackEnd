@@ -20,7 +20,7 @@ public class RegisterServiceImpl implements RegisterService {
     }
 
     @Override
-    public List<User> saveUser() {
-        return registerDao.saveAll();
+    public User saveUser(User user) {
+        return registerDao.save(user);
     }
 }

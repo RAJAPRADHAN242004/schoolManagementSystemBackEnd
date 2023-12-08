@@ -21,9 +21,10 @@ public class SmsController {
         return registerService.getUsers();
     }
 
-    @PostMapping("/user")
-    public User createUser(@RequestBody User user) {
-        return (User) registerService.saveUser();
+    @PostMapping(value = "/saveUser")
+    public String createUser(@RequestBody User user) {
+         registerService.saveUser(user);
+         return "User saved successfully!!";
     }
 }
 
