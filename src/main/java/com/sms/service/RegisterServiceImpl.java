@@ -18,4 +18,9 @@ public class RegisterServiceImpl implements RegisterService {
     public List<User> getUsers() {
         return registerDao.findAll();
     }
+
+    @Override
+    public User saveUser(User user) {
+        return registerDao.save(user);
+    }
 }
