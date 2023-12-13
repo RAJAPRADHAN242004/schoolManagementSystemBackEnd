@@ -9,4 +9,9 @@ public interface RegisterService {
     List<User> getUsers();
 
     User saveUser(User user);
+
+    User updateUser(User user);
+
+    // List<User> deleteUser();
+
 }
